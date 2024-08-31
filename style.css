@@ -1,0 +1,29 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  height: 100vh;
+  overflow: hidden;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-font-smoothing: grayscale;
+  font-family: Open Sans, sans-serif;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+}
+.sketchfab {
+  height: 100%;
+  width: 100%;
+  border: 0;
+}
+
+.label {
+  height: 40px;
+  padding: 12px;
+  background-color: #efefef;
+}
